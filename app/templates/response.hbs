@@ -1,1 +1,25 @@
-<h2>{{@model}}</h2>
+<div class="heading">
+    <h2>Flight Ticket Details</h2>
+</div>
+<table class="data">
+    <tr>
+        <td>ID</td>
+        <td>{{@model.id}}</td>
+    </tr>
+    <tr>
+        <td>From Location</td>
+        <td>{{@model.fromLocation}}</td>
+    </tr>
+    <tr>
+        <td>To Location</td>
+        <td>{{@model.toLocation}}</td>
+    </tr>
+    <tr>
+        <td>Date</td>
+        <td>{{@model.date}}</td>
+    </tr>
+    <tr>
+        <td>Time</td>
+        <td>{{@model.time}}</td>
+    </tr>
+</table>
