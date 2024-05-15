@@ -2,9 +2,11 @@
   margin-left: auto;
   margin-right: auto;
 }
+
 .heading {
   text-align: center;
 }
+
 .data td {
   padding: 10px;
 }
