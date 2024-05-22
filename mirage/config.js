@@ -49,8 +49,8 @@ function routes() {
  this.get('/flights/:id',(schema,request)=>{
   const id1 = request.params.id;
   //console.log(schema);
+  // console.log(request);
   const flight = schema.flights.find(id1);
-  // const id1 = req.params.id;
   // console.log(flight);
   
   return{
