@@ -66,4 +66,5 @@ function routes() {
     }
   }
  })
+ this.passthrough('/write-coverage');
 }
